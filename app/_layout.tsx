@@ -18,6 +18,70 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
+        <Stack.Screen 
+          name="account/my-properties" 
+          options={{ 
+            headerShown: false,
+            presentation: 'card',
+            animation: 'slide_from_right'
+          }} 
+        />
+        <Stack.Screen 
+          name="account/saved-properties" 
+          options={{ 
+            headerShown: false,
+            presentation: 'card',
+            animation: 'slide_from_right'
+          }} 
+        />
+        <Stack.Screen 
+          name="account/transactions" 
+          options={{ 
+            headerShown: false,
+            presentation: 'card',
+            animation: 'slide_from_right'
+          }} 
+        />
+        <Stack.Screen 
+          name="account/notifications" 
+          options={{ 
+            headerShown: false,
+            presentation: 'card',
+            animation: 'slide_from_right'
+          }} 
+        />
+        <Stack.Screen 
+          name="account/payment-methods" 
+          options={{ 
+            headerShown: false,
+            presentation: 'card',
+            animation: 'slide_from_right'
+          }} 
+        />
+        <Stack.Screen 
+          name="account/edit-profile" 
+          options={{ 
+            headerShown: false,
+            presentation: 'card',
+            animation: 'slide_from_right'
+          }} 
+        />
+        <Stack.Screen 
+          name="Modern-Family-House" 
+          options={{ 
+            headerShown: false,
+            presentation: 'card',
+            animation: 'slide_from_right'
+          }} 
+        />
+        <Stack.Screen 
+          name="property-details" 
+          options={{ 
+            headerShown: false,
+            presentation: 'card',
+            animation: 'slide_from_right'
+          }} 
+        />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
